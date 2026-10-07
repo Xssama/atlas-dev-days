@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas Dev Days — Conférence web au Maroc</title>
     <meta name="description" content="Découvrez Atlas Dev Days, une conférence de deux jours dédiée aux développeurs web au Maroc.">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
         <a href = "index.html"><img src="./assets/icons/logo.svg" alt="atlas dev logo" width="50px"></a>
         <ul>
            <li><a href="./programme.html">Programme</a></li>
-            <li><a href="./intervenants.html">intervenants</a></li>
+            <li><a href="./intervenants.html">Intervenants</a></li>
             <li><a href="./inscription.html">S'inscrire</a></li>
         </ul>
         </nav>
@@ -23,14 +24,14 @@
             <h1>Atlas Dev Days</h1>
             <p>21 & 22 novembre 2026</p>
             <p>Technopark Casablanca</p>
-            <a href="inscription.html">S'inscrire</a>
+            <a class="button" href="inscription.html">S'inscrire</a>
             </div>
             <img src="./assets/images/Atlas-Dev-Days-Conference-Stage.png" alt="Participants assistant à une conférence Atlas Dev Days">
         </section>
         <section id="stats">
             <article>
                 <p>6</p>
-                <p>intervenants</p>
+                <p>Intervenants</p>
             </article>
             <article>
                 <p>8</p>
@@ -48,9 +49,9 @@
         </section>
         <section id="intervenants">
             <h2>Nos intervenants</h2>
-            <div>
+            <div class="speaker-list">
             <article>
-                <img src="assets/images/Yassine-El-Mansouri.jpg" alt="Yassine El Mansouri">
+                <img src="assets/images/Yassine-El-Mansouri.jpg" alt="Yasddddddsine El Mansouri">
                 <h3>Yassine El Mansouri</h3>
                 <p>Senior Frontend Developer</p>
                 <a href="./intervenants.html">Voir le profil</a>
@@ -59,28 +60,35 @@
                 <img src="assets/images/Sara-Benali.jpg" alt="Sara Benali">
                 <h3>Sara Benali</h3>
                 <p>Software Engineer</p>
-                <a href="./intervenants.html">Voir le Profil</a>
+                <a href="./intervenants.html">Voir le profil</a>
             </article>
             <article>
-                <img src="assets/images/mehdi-alaoui.jpg" alt="mehdi alaoui">
+                <img src="assets/images/mehdi-alaoui.jpg" alt="Mehdi Alaoui">
                 <h3>Mehdi Alaoui</h3>
                 <p>DevOps Engineer</p>
-                <a href="./intervenants.html">Voir le Profil</a>
+                <a href="./intervenants.html">Voir le profil</a>
             </article>
-            <a href="./intervenants.html">Voir tous les intervenants</a>
             </div>
+            <a class="button" href="./intervenants.html">Voir tous les intervenants</a>
         </section>
     </main>
     <footer>
         <h2>Atlas Dev Days</h2>
-        <h3>Social</h3>
-        <a href="#">LinkedIn</a>
-        <a href="#">Facebook</a>
-        <a href="#">X</a>
-        <h3>contact</h3>
-        <a href="milto:contact@atlasdev.ma">contact@atlasDev.ma</a>
-        <h3>Informations</h3>
-        <a href="#">Mentions légales</a>
+        <div class="footer-social">
+            <h3>Social</h3>
+            <a href="#">LinkedIn</a>
+            <a href="#">Facebook</a>
+            <a href="#">X</a>
+        </div>
+        <div class="footer-contact">
+            <h3>contact</h3>
+            <a href="mailto:contact@atlasdev.ma">contact@atlasDev.ma</a>
+            
+        </div>
+        <div class="footer-info">
+            <h3>Informations</h3>
+            <a href="#">Mentions légales</a>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,170 @@
+:root {
+   --color-background: #f5f5f5;
+    --color-text: #222222;
+    --color-primary: #222222;
+    --color-surface: #ffffff;
+    --font-main: Arial, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: var(--color-surface);
+}
+body{
+    margin : 0;
+    background-color : var(--color-background);
+    color : var(--color-text);
+    font-family: var(--font-main);
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding : 16px 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin : 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap : 24px
+}
+
+nav a {
+    text-decoration: none;
+    color :var(--color-text);
+}
+#hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 40px;
+}
+.hero-content {
+    width: 40%;
+}
+#hero img {
+    width: 60%;
+    min-width: 0
+}
+.button {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 12px 24px;
+    background-color: var(--color-primary);
+    color : white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.button:hover {
+    opacity: 0.8;
+}
+.button:focus {
+    outline: 3px solid #555;
+    outline-offset: 3px;
+}
+
+#stats {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: var(--color-surface);
+}
+#stats article {
+    display: flex;
+}
+
+#stats article p:first-child {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 10 0;
+}
+#stats article p:last-child {
+    margin: 0;
+    font-size: 16px;
+}
+#about {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+#about h2, #apprenants h2 {
+    font-size: 36px;
+    margin: 0 0 10;
+
+}
+
+#about {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+
+}
+#intervenants{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+.speaker-list {
+    display: flex;
+    gap: 26px;
+}
+.speaker-list article{
+    background-color: var(--color-background);
+    padding: 20px;
+}
+.speaker-list img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.speaker-list h3, .speaker-list p {
+    text-align: center;
+    object-fit: cover;
+}
+.speaker-list a, #intervenants a {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+footer {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 40px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+footer h2, footer h3 {
+    margin: 0;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color:rgb(170, 166, 166);
+    text-decoration: underline
+}

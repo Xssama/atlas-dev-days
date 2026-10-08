@@ -23,7 +23,71 @@
             <h1>Inscription</h1>
         </section>
         <section id="inscription-formulaire">
-            
+            <h2>Inscrivez-vous</h2>
+            <section id="inscription-info">
+                <form>
+                    <div class="form-group">
+                        <label for="nom">Nom Complet:</label>
+                        <input type="text" id="nom" name="nom" required minlength="3">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Telephone:</label>
+                        <input type="tel" id="tel" name="Telephone" required pattern="^(\+212|0)[5-7][0-9]{8}$">
+                    </div>
+                    <div class="form-group">
+                        <label for="profile">Profil</label>
+                        <select id="profile" name="profile" required>
+                            <option value="">Choisir un profil</option>
+                            <option value="etudiant">Etudiant</option>
+                            <option value="developer">Développeur</option>
+                            <option value="autre">Autre</option>
+                        </select>
+                    </div>
+                    <fieldset class="form-group">
+                        <legend>Ateliers souhaités</legend>
+                        <label>
+                            <input type="checkbox" name="workshops" value="html-css"> HTML & CSS Avancé
+                        </label>
+                        <label>
+                            <input type="checkbox" name="workshops" value="docker"> Docker
+                        </label>
+                        <label>
+                            <input type="checkbox" name="workshops" value="github"> Git & GitHub
+                        </label>
+                        <label>
+                            <input type="checkbox" name="workshops" value="accessibilité"> Accessibilité Web
+                        </label>
+                        <label>
+                            <input type="checkbox" name="workshops" value="performance"> Performance Web
+                        </label>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend>Journée(s) de participation</legend>
+                        <label>
+                            <input type="radio" name="day" value="jour1" required>Jour 1
+                        </label>
+                        <label>
+                            <input type="radio" name="day" value="jour2">Jour2
+                        </label>
+                        <label>
+                            <input type="radio" name="day" value="both">Les Deux
+                        </label>
+                    </fieldset>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                    <label>
+                    <input type="checkbox" id="consentement" name="consentement" required> J'accepte que mes données soient utilisées dans le cadre de mon inscription à l'événement.
+                    </label>
+                    </div>
+                </form>
+            </section>
         </section>
     </main>
      <footer>

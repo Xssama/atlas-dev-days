@@ -168,3 +168,33 @@ footer a:hover {
     color:rgb(170, 166, 166);
     text-decoration: underline
 }
+
+#programme-hero {
+    text-align: center;
+    padding: 70px 0 70px 0;
+}
+.talks{
+    background-color: var(--color-surface);
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 5px;
+}
+.day article{
+    margin: 10px 30px;
+    padding: 10px 20px 10px 20px;
+    background-color: #d0c7c72f;
+    border-radius: 10px;
+}
+.day h2 {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large;
+}
+#programme-inscription-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}

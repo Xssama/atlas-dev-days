@@ -43,6 +43,10 @@ nav a {
     text-decoration: none;
     color :var(--color-text);
 }
+nav img {
+    width: 70px;
+    min-width: 50px;
+}
 #hero {
     max-width: 1440px;
     margin: 0 auto;
@@ -271,5 +275,8 @@ fieldset{
 .form-group button {
     max-width: 100px;
    margin-left: 36%
+    
+}
+@media (max-width = 768px) {
     
 }

@@ -198,3 +198,35 @@ footer a:hover {
     margin-bottom: 20px;
     
 }
+#speakers-hero {
+    text-align: center;
+    padding: 70px 0 70px;
+}
+#speakers {
+    background-color: #ffffff;
+    margin: 20px 0 0 0;
+    align-items: center;
+}
+#speakers-grid {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 50px;
+}
+#speakers-grid article {
+    text-align: center;
+    min-width: 200px;
+    max-width: 320px;
+    margin : 10px 0px 10px 10px;
+}
+#speakers-grid img {
+    border-radius: 20px;
+}
+.intervenant-social {
+    text-decoration: none;
+    color:#a39d30;
+}
+.intervenant-social:focus {
+    color: red;
+}

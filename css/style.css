@@ -213,6 +213,7 @@ footer a:hover {
     justify-content: center;
     gap: 35px;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 #speakers-grid article {
     text-align: center;
@@ -229,4 +230,8 @@ footer a:hover {
 }
 .intervenant-social:focus {
     color: red;
+}
+#inscription-hero {
+    text-align: center;
+    padding: 70px 0 70px 0;
 }

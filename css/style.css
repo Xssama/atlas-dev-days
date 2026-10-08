@@ -277,6 +277,34 @@ fieldset{
    margin-left: 36%
     
 }
-@media (max-width = 768px) {
-    
+@media (max-width: 768px) {
+    #hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content {
+        width: 100%;
+    }
+    #hero img{
+        width: 100%;
+    }
+    .speaker-list {
+        flex-direction: column;
+    }
+    header nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    header ul {
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .talks {
+        flex-direction: column;
+        padding: 10px 20px 10px 20px;
+    }
 }

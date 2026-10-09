@@ -89,7 +89,10 @@ nav img {
     background-color: var(--color-surface);
 }
 #stats article {
+    flex: 1;    
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #stats article p:first-child {

@@ -120,16 +120,17 @@ nav img {
     max-width: 800px;
     font-size: 18px;
     line-height: 1.6;
-    margin: 0;
 
 }
 #intervenants{
     max-width: 1400px;
     margin: 0 auto;
     padding: 80px 40px;
+    text-align: center;
 }
 .speaker-list {
     display: flex;
+    justify-content: center;
     gap: 26px;
 }
 .speaker-list article{
@@ -265,9 +266,7 @@ footer a:hover {
     border: 1px solid #1b1a1a2f;
     font: var(--font-main)
 }
-/* .form-group input{
-    max-width: auto;
-} */
+
 #message {
     min-height: 100px;
 }
